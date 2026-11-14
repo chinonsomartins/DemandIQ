@@ -1,0 +1,13 @@
+# Core data stack
+numpy>=1.26
+pandas>=2.2
+pyarrow>=15.0        # Parquet I/O: far smaller and faster than CSV for M5
+scipy>=1.12
+
+# Visualization (Plotly is the project's standard plotting library)
+plotly>=5.20
+nbformat>=5.9        # required by Plotly to render in notebooks
+
+# Configuration
+python-dotenv>=1.0
+pyyaml>=6.0

@@ -1,0 +1,5 @@
+-r requirements.txt
+
+pytest>=8.0
+ipykernel>=6.29      # lets VS Code run notebooks in this venv
+ruff>=0.4            # fast linter and formatter
